@@ -287,7 +287,6 @@ img {
 }
 
 .modal-mobile {
-  padding-top: 240px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -331,7 +330,6 @@ img {
 .page-nav-mobile {
   display: flex;
   justify-content: center;
-  margin-bottom: 260px;
 }
 
 .navlist-mobile {
@@ -429,9 +427,7 @@ img {
     margin-bottom: 50px;
   }
   .page-nav-mobile {
-    margin-bottom: 350px;
   }
   .modal-mobile {
-    padding-top: 310px;
   }
 }
