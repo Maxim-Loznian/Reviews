@@ -319,7 +319,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-
+.modal-close-icon {
+  width: 17px;
+  height: 17px;
+}
+.footer-icon {
+  width: 18px;
+  height: 18px;
+}
 .page-nav-mobile {
   display: flex;
   justify-content: center;
@@ -396,4 +403,23 @@ img {
 .team-son-link-mobile:hover,
 .team-son-link-mobile:focus {
   fill: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-close-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .modal-close-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .footer-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .modal-mobile {
+    width: 330px;
+  }
 }
