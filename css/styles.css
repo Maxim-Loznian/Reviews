@@ -261,7 +261,8 @@ align-items: center;
   height: 8px;
   border-radius: 100%;
   background: #3350e9;
-  left: 40%;
+  left: 15px;
+  top: 17px;
   display: none;
   transition-property: all 0.4s;}
 
