@@ -59,11 +59,6 @@ img {
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
-    padding: 0 32px;
-  }
-  .header-container {
-    max-width: 375px;
-    padding: 0 32px;
   }
 }
 
@@ -98,7 +93,7 @@ img {
 }
 
 .header-container {
-  width: 335px;
+  max-width: 335px;
   height: 34px;
   padding: 20px;
   display: flex;
@@ -108,7 +103,7 @@ img {
 }
 
 .page-header {
-  width: 375px;
+  max-width: 375px;
   height: 74px;
   display: flex;
   align-items: center;
@@ -162,7 +157,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .page-header {
-    width: 768px;
+    max-width: 768px;
     height: 92px;
   }
 
@@ -189,7 +184,7 @@ img {
   }
 
   .header-container {
-    width: 704px;
+    max-width: 704px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -203,7 +198,7 @@ img {
     }
 
     .header-container {
-      width: 1151px;
+      max-width: 1151px;
       height: 36px;
       display: flex;
       align-items: center;
@@ -261,8 +256,8 @@ img {
     height: 8px;
     border-radius: 100%;
     background: #3350e9;
-    left: 50%;
-    bottom: 17px;
+    left: 40%;
+    top: 17px;
     display: none;
     transition-property: all 0.4s;
   }
@@ -367,9 +362,9 @@ img {
   height: 8px;
   border-radius: 100%;
   background: #3350e9;
-  left: 50%;
-  bottom: 17px;
-  display: none;
+  left: 40%;
+  top: 17px;
+  display: flex;
   transition-property: all 0.4s;
 }
 
@@ -430,9 +425,5 @@ img {
   }
   .navlist-mobile {
     margin-bottom: 50px;
-  }
-  .page-nav-mobile {
-  }
-  .modal-mobile {
   }
 }
