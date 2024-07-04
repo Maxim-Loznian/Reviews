@@ -238,13 +238,13 @@ input:focus {
   gap: 12px; /* проміжок між кнопками для мобільних пристроїв */
 }
 
-.swiper-button-prev button:disabled,
-.swiper-button-next button:disabled {
+.swiper-button-prev[disabled],
+.swiper-button-next[disabled] {
   border: 1px solid rgba(250, 250, 250, 0.2);
 }
 
-.swiper-button-prev button:disabled svg path,
-.swiper-button-next button:disabled svg path {
+.swiper-button-prev[disabled] svg path,
+.swiper-button-next[disabled] svg path {
   stroke: #3b3b3b;
 }
 
