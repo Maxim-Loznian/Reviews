@@ -232,36 +232,10 @@ input:focus {
   background: none;
 }
 
-.swiper-button-prev button:disabled,
-.swiper-button-next button:disabled {
-  border: 1px solid rgba(250, 250, 250, 0.2);
-}
-
-.swiper-button-prev button:disabled svg path,
-.swiper-button-next button:disabled svg path {
-  stroke: #3b3b3b;
-}
-
-.error-message {
-  color: red;
-  text-align: center;
-  font-size: 18px;
-  margin-top: 20px;
-}
 .swiper-navigation {
   display: flex;
   justify-content: center;
   gap: 12px; /* проміжок між кнопками для мобільних пристроїв */
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  border: 1px solid rgba(250, 250, 250, 0.5);
-  border-radius: 60px;
-  padding: 18px;
-  width: 68px;
-  height: 68px;
-  background: none;
 }
 
 .swiper-button-prev button:disabled,
