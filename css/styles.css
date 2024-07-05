@@ -231,6 +231,12 @@ input:focus {
   height: 52px;
   background: none;
 }
+.left,
+.right {
+  width="24"
+  height="24"
+}
+
 
 .swiper-navigation {
   display: flex;
@@ -268,4 +274,10 @@ input:focus {
   .swiper-navigation {
     gap: 20px; /* проміжок між кнопками для мобільних пристроїв */
   }
+
+.left,
+.right {
+  width="32"
+  height="32"
+}
 }
