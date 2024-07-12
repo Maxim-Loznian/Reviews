@@ -17,3 +17,5 @@ https://github.com/Aleksandr-Hurieiev/js-15-group-project/pull/71
 https://github.com/Aleksandr-Hurieiev/js-15-group-project/pull/72
 
 https://github.com/Aleksandr-Hurieiev/js-15-group-project/pull/78
+
+https://github.com/Aleksandr-Hurieiev/js-15-group-project/pull/91
